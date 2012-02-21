@@ -1,0 +1,32 @@
+| problem  | * | param  |
+|----------+---+--------|
+| ARGAUSS  | * |        |
+| ARGTRIG  | * | N=10   |
+| BARD     | * |        |
+| BEALE    | * |        |
+| BOOTH    | * |        |
+| BOX2     | * |        |
+| BRKMCC   | * |        |
+| BROWNDEN | * |        |
+| BROYDN7D | * | N/2=50 |
+| BROWNAL  | * | N=100  |
+| BRYBND   | * | N=100  |
+| CLUSTER  | * |        |
+| CRAGGLVY | * | M=249  |
+| DIXON3DQ | * | N=10   |
+| EXTROSNB | * | N=100  |
+| FREUROTH | * | N=50   |
+| GOTTFR   | * |        |
+| HILBERTA | * | N=10   |
+| MANCINO  | * | N=50   |
+| NONDIA   | * | N=20   |
+| PENALTY1 | * | N=50   |
+| PENALTY1 | * | N=100  |
+| QUARTC   | * | N=25   |
+| SCHMVETT | * | N=500  |
+| TOINTPSP | * |        |
+| TRIDIA   | * | N=100  |
+| WATSON   | * |        |
+| WOODS    | * | NS=1   |
+| WOODS    | * | NS=25  |
+| ZANGWIL3 | * |        |

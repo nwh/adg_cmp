@@ -1,0 +1,43 @@
+
+Adding dummy linear equality.
+
+Matrix stats:
+ m = 1
+ n = 3
+ nnz(A) = 0
+ max(|A|) = 0.0e+00
+
+Linear constraints:
+ <- : 0
+ -< : 0
+ << : 1
+ == : 0
+ -- : 0
+
+Variable bounds:
+ <- : 0
+ -< : 0
+ << : 3
+ == : 0
+ -- : 0
+
+Phase 1 initiated.
+
+Phase 1 complete: feasible point found.
+
+Phase 2 initiated.
+
+Phase 2 complete: optimality conditions satisfied.
+
+Termination status: optimality conditions satisfied.
+Function value....... 0
+Residual............. 0
+Phase 1 iterations... 0
+Phase 2 iterations... 0
+Total iterations..... 0
+dnc iterations....... 0
+dnc modifications.... 0
+P1 degenerate steps.. 0
+P2 degenerate steps.. 0
+Function evaluations. 1
+Time (sec)........... 0.020811

@@ -1,0 +1,54 @@
+
+Adding dummy linear equality.
+
+Matrix stats:
+ m = 1
+ n = 50
+ nnz(A) = 0
+ max(|A|) = 0.0e+00
+
+Linear constraints:
+ <- : 0
+ -< : 0
+ << : 1
+ == : 0
+ -- : 0
+
+Variable bounds:
+ <- : 0
+ -< : 0
+ << : 50
+ == : 0
+ -- : 0
+
+Phase 1 initiated.
+
+Phase 1 complete: feasible point found.
+
+Phase 2 initiated.
+
+iter: 1, fev: 4, f:  1e+04, ||x||: 2e+00
+
+iter ||z|| D   eval M s prd  sres   stp bas bfac fev     df    dx ns
+   1 1e+03   -4e+01   0  55 4e-07 1e-03            3 -4e+04 1e+00 50
+   2 8e+02    1e+00   0  14 1e-07 1e-02            2 -4e+03 2e+00 50
+   3 1e+03    8e-01   0  11 3e-07 5e-01            1 -1e+03 1e+01 50
+   4 2e+02    9e-01   0  10 9e-08 6e-02            1 -3e+01 3e-01 50
+   5 2e+01    8e-01   0   9 5e-07 3e-01            1 -1e-01 2e-02 50
+   6 2e-01    8e-01   0   9 4e-07 7e-04            1 -9e-06 1e-04 50
+   7 1e-05    8e-01   0   9 4e-07 1e-02            2 -5e-12 7e-09 50
+
+Phase 2 complete: optimality conditions satisfied.
+
+Termination status: optimality conditions satisfied.
+Function value....... 5880.96
+Residual............. 0
+Phase 1 iterations... 0
+Phase 2 iterations... 7
+Total iterations..... 7
+dnc iterations....... 1
+dnc modifications.... 0
+P1 degenerate steps.. 0
+P2 degenerate steps.. 0
+Function evaluations. 12
+Time (sec)........... 0.29039
