@@ -21,21 +21,22 @@ Antonino Del Gatto's (ADG) thesis.  The process went like this:
 
 * short description of files
 
-|---------------------+------------------------------------|
-| file                | note                               |
-|---------------------+------------------------------------|
-| doc                 | contains table from ADG's thesis   |
-| runs                | output from arcopt                 |
-| adg_run1.m          | run single problem with arcopt     |
-| adg_run_all.m       | run all adg problem with arcopt    |
-| adg_setup.m         | set up matlab environment          |
-| adg_test_problems.m | run tests on adg problems          |
-| solve_pdat.m        | wrapper to cuter for 1 problem     |
-| solve_pdat_set.m    | wrapper to cuter for many problems |
-| adg_results.org     | arcopt results table               |
-| adg_set.org         | ADG test set list                  |
-| adg_test.org        | results of tests on problems       |
-|---------------------+------------------------------------|
+|------------------------+-------------------------------------|
+| file                   | note                                |
+|------------------------+-------------------------------------|
+| doc                    | contains table from ADG's thesis    |
+| runs                   | output from arcopt                  |
+| adg_run1.m             | run single problem with arcopt      |
+| adg_run_all.m          | run all adg problem with arcopt     |
+| adg_setup.m            | set up matlab environment           |
+| adg_test_problems.m    | run tests on adg problems           |
+| solve_pdat.m           | wrapper to cuter for 1 problem      |
+| solve_pdat_set.m       | wrapper to cuter for many problems  |
+| adg_arcopt_compare.org | organized note with the final table |
+| adg_results.org        | arcopt results table                |
+| adg_set.org            | ADG test set list                   |
+| adg_test.org           | results of tests on problems        |
+|------------------------+-------------------------------------|
 
 * notes
 ** problems from thesis vs cuter set

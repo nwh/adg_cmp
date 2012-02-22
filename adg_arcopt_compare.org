@@ -1,0 +1,64 @@
+* <2012-02-21 Tue> ARCOPT-ADG Comparison
+
+** note
+
+This table summarizes the comparison between ARCOPT and results published in
+ADG's thesis.
+
+** field description
+
+|---------------+--------------------------------------------|
+| field name    | note                                       |
+|---------------+--------------------------------------------|
+| cuter         | name of problem in CUTEr                   |
+| adg           | name of problem in ADG's thesis            |
+| cuter nvar    | number of variables in CUTEr problem       |
+| adg nvar      | number of variables in ADG's thesis        |
+| adg iter      | number of iterations in ADG's thesis       |
+| arcopt iter   | number of iterations for arcopt            |
+| arcopt fevcnt | number of function evals for arcopt        |
+| info          | arcopt solver flag 1=success, 4=maxfev hit |
+|---------------+--------------------------------------------|
+
+Note 1: ADG did not present a function evaluation count.
+
+Note 2: If the given starting point is optimal, arcopt calls that 0
+iterations.  I suspect ADG called it one iteration.  So all iteration counts
+are off by 1.  I show the number of function evals required.
+
+** comparison table
+
+|----------+--------+------------+----------+----------+-------------+---------------+------|
+| cuter    | adg    | cuter nvar | adg nvar | adg iter | arcopt iter | arcopt fevcnt | info |
+|----------+--------+------------+----------+----------+-------------+---------------+------|
+| ARGAUSS  | ARGAUS |          3 |        3 |        3 |           0 |             1 |    1 |
+| ARGTRIG  | ARTRIG |         10 |       10 |       11 |           0 |             1 |    1 |
+| BARD     | BARD70 |          3 |        3 |       12 |          10 |            11 |    1 |
+| BEALE    | BEAL58 |          2 |        2 |       11 |           7 |            10 |    1 |
+| BOOTH    | BOOTH  |          2 |        2 |        2 |           0 |             1 |    1 |
+| BOX2     | BOX66  |          3 |        2 |       13 |           8 |            13 |    1 |
+| BRKMCC   | BRKMCC |          2 |        2 |        4 |           3 |             4 |    1 |
+| BROWNDEN | BROWND |          4 |        4 |        9 |           8 |             9 |    1 |
+| BROYDN7D | BROY7D |        100 |       60 |       28 |          14 |            16 |    1 |
+| BROWNAL  | BRWNAL |        100 |      100 |        6 |           6 |            11 |    1 |
+| BRYBND   | BRYBND |        100 |      100 |        8 |          11 |            23 |    1 |
+| CLUSTER  | CLUSTR |          2 |        2 |       14 |           0 |             1 |    1 |
+| CRAGGLVY | CRGLVY |        500 |      500 |       17 |          14 |            15 |    1 |
+| DIXON3DQ | DIXON  |         10 |       10 |        2 |           2 |             3 |    1 |
+| EXTROSNB | EXTRSN |        100 |      100 |       25 |         376 |          1000 |    4 |
+| FREUROTH | FRDRTH |         50 |       50 |        7 |           7 |            12 |    1 |
+| GOTTFR   | GOTTFR |          2 |        2 |       20 |           0 |             1 |    1 |
+| HILBERTA | HILBRT |         10 |       12 |        5 |           5 |             6 |    1 |
+| MANCINO  | MANCIN |         50 |       50 |        4 |           6 |             7 |    1 |
+| NONDIA   | NONDIA |         20 |       20 |       26 |           8 |            10 |    1 |
+| PENALTY1 | PENAL1 |         50 |       50 |       45 |          35 |            41 |    1 |
+| PENALTY1 | PENAL1 |        100 |      100 |       45 |          36 |            43 |    1 |
+| QUARTC   | QUARTC |         25 |       25 |       33 |          21 |            22 |    1 |
+| SCHMVETT | SCHMVT |        500 |      500 |        4 |           3 |             4 |    1 |
+| TOINTPSP | TOINT  |         50 |       50 |       12 |          10 |            19 |    1 |
+| TRIDIA   | TRIDIA |        100 |      100 |        2 |           2 |             3 |    1 |
+| WATSON   | WATSON |         12 |        6 |       16 |         236 |          1000 |    4 |
+| WOODS    | WOODS  |          4 |        4 |       50 |          40 |            57 |    1 |
+| WOODS    | WOODS  |        100 |       80 |       47 |         161 |           361 |    1 |
+| ZANGWIL3 | ZANGWL |          3 |        3 |        2 |           0 |             1 |    1 |
+|----------+--------+------------+----------+----------+-------------+---------------+------|
